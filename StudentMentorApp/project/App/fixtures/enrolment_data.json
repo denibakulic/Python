@@ -1,0 +1,128 @@
+[
+    {
+        "model": "App.enrolment",
+        "id": 1,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 19,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 2,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 17,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 3,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 38,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 4,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 45,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 5,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 10,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 6,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 3,
+          "status": ""
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 7,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 13,
+          "status": ""
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 8,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 1,
+          "status": ""
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 9,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 6,
+          "status": ""
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 10,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 19,
+          "status": ""
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 11,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 48,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 12,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 6,
+          "status": "passed"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 13,
+        "fields": {
+          "student_id": 3,
+          "predmet_id": 24,
+          "status": "enrolled"
+      }
+    },
+    {
+        "model": "App.enrolment",
+        "id": 14,
+        "fields": {
+          "student_id": 4,
+          "predmet_id": 2,
+          "status": "passed"
+      }
+    }
+]

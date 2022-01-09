@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Upisni list</h1>
+<div class='row'>
+    <div class = 'border col-md-6 flrx-column'>
+        <h1>Predmeti</h1>
+        {% for subj in subjects %}
+        <form method = 'POST'>{% csrf_token %}
+            <button type='submit' name='upisi' value="{{subj.id}}" class="btn btn-outline-dark">+</button>
+            {{subj.kod}} {{subj.ime}}
+        </form>
+        {% endfor %}
+    </div>
+    <div class = 'border col-md-5 flrx-column'>
+        <h1>Student {{student.username}} predmeti</h1>
+        {% for sem in semestar %}
+        <div class = 'border'>
+            <h3>Semestar {{sem}}</h3>
+            {% for subject in all %}
+            {% for enrl in enrolled %}
+            {% if subject.id == enrl.predmet_id_id %}
+            {% if student.status == "REDOVNI" and subject.sem_redovni == sem %}
+            <form method = 'POST' class="d-flex justify-content-between align-items-center">{% csrf_token %}
+                {{subject.kod}}{{subject.ime}}
+                <div class="d-flex justify-content-end">
+                    {% if enrl.status == 'enrolled' %}
+                    <button type="submit" name="delete" value="{{subject.id}}"class="btn btn-outline-dark">x</button>
+                    <button type="submit" name="passed" value="{{subject.id}}"class="btn btn-outline-dark"> &#10004;</button>
+                    {% elif enrl.status == 'passed' %}
+                    <span>   &#10004;</span>
+                    <button type="submit" name="not_passed" value="{{subject.id}}"class="btn btn-outline-dark"> Unpass</button>
+                    {% endif %}
+                </div>
+            </form>
+            {% elif student.status == "IZVANREDNI" and subject.sem_izvanredni == sem %}
+            <form method = 'POST' class="d-flex justify-content-between align-items-center">{% csrf_token %}
+                {{subject.kod}}{{subject.ime}}
+                <div class="d-flex justify-content-end">
+                    {% if enrl.status == 'enrolled' %}
+                    <button type="submit" name="delete" value="{{subject.id}}"class="btn btn-outline-dark">x</button>
+                    <button type="submit" name="passed" value="{{subject.id}}"class="btn btn-outline-dark"> &#10004;</button>
+                    {% elif enrl.status == 'passed' %}
+                    <span>   &#10004;</span>
+                    <button type="submit" name="not_passed" value="{{subject.id}}"class="btn btn-outline-dark"> Unpass</button>
+                    {% endif %}
+                </div>
+            </form>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>  
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

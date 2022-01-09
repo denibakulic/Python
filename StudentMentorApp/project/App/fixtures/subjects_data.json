@@ -1,0 +1,626 @@
+[
+    {
+      "model": "App.subject",
+      "id": 1,
+      "fields": {
+        "ime": "Linearna algebra",
+        "kod": "SIT001",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 1,
+        "sem_izvanredni": 1,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 2,
+      "fields": {
+        "ime": "Fizika",
+        "kod": "SIT002",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 1,
+        "sem_izvanredni": 3,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 3,
+      "fields": {
+        "ime": "Onove elektrotehnike",
+        "kod": "SIT003",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 1,
+        "sem_izvanredni": 3,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 4,
+      "fields": {
+        "ime": "Digitalna i mikroprocesorska logika",
+        "kod": "SIT004",
+        "program": "Program nije unesen",
+        "bodovi": 7,
+        "sem_redovni": 1,
+        "sem_izvanredni": 2,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 5,
+      "fields": {
+        "ime": "Uporaba računala",
+        "kod": "SIT005",
+        "program": "Program nije unesen",
+        "bodovi": 4,
+        "sem_redovni": 1,
+        "sem_izvanredni": 1,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 6,
+      "fields": {
+        "ime": "Engleski jezik 1",
+        "kod": "SIT006",
+        "program": "Program nije unesen",
+        "bodovi": 2,
+        "sem_redovni": 1,
+        "sem_izvanredni": 1,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 7,
+      "fields": {
+        "ime": "Analiza 1",
+        "kod": "SIT007",
+        "program": "Program nije unesen",
+        "bodovi": 7,
+        "sem_redovni": 2,
+        "sem_izvanredni": 2,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 8,
+      "fields": {
+        "ime": "Osnove elektrotehnike",
+        "kod": "SIT008",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 2,
+        "sem_izvanredni": 2,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 9,
+      "fields": {
+        "ime": "Arhitektura i organizacija digitalnih računala",
+        "kod": "SIT009",
+        "program": "Program nije unesen",
+        "bodovi": 7,
+        "sem_redovni": 2,
+        "sem_izvanredni": 3,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 10,
+      "fields": {
+        "ime": "Uvod u programiranje",
+        "kod": "SIT010",
+        "program": "Program nije unesen",
+        "bodovi": 8,
+        "sem_redovni": 2,
+        "sem_izvanredni": 3,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 11,
+      "fields": {
+        "ime": "Engleski jezik 2",
+        "kod": "SIT011",
+        "program": "Program nije unesen",
+        "bodovi": 2,
+        "sem_redovni": 2,
+        "sem_izvanredni": 2,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 12,
+      "fields": {
+        "ime": "Primjenjena i numerička matematika",
+        "kod": "SIT012",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 3,
+        "sem_izvanredni": 4,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 13,
+      "fields": {
+        "ime": "Programske metode i apstrakcije",
+        "kod": "SIT013",
+        "program": "Program nije unesen",
+        "bodovi": 8,
+        "sem_redovni": 3,
+        "sem_izvanredni": 4,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 14,
+      "fields": {
+        "ime": "Baze podataka",
+        "kod": "SIT014",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 3,
+        "sem_izvanredni": 5,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 15,
+      "fields": {
+        "ime": "Informacijski sustavi",
+        "kod": "SIT015",
+        "program": "Program nije unesen",
+        "bodovi": 4,
+        "sem_redovni": 3,
+        "sem_izvanredni": 5,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 16,
+      "fields": {
+        "ime": "Tehnički engleski jezik",
+        "kod": "SIT016",
+        "program": "Program nije unesen",
+        "bodovi": 4,
+        "sem_redovni": 3,
+        "sem_izvanredni": 5,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 17,
+      "fields": {
+        "ime": "Računalne mreže",
+        "kod": "SIT017",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 5,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 19,
+      "fields": {
+        "ime": "Strukture podataka i algoritmi",
+        "kod": "SIT019",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 18,
+      "fields": {
+        "ime": "Operacijski sustavi",
+        "kod": "SIT018",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 5,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 20,
+      "fields": {
+        "ime": "Objetno programiranje",
+        "kod": "SIT020",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 21,
+      "fields": {
+        "ime": "Baze podataka 2",
+        "kod": "SIT021",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 22,
+      "fields": {
+        "ime": "Mreže usluge i programiranje",
+        "kod": "SIT022",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 23,
+      "fields": {
+        "ime": "Arhitektura osobnih računala",
+        "kod": "SIT023",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 24,
+      "fields": {
+        "ime": "Projektiranje i upravljanje računalnim mrežama",
+        "kod": "SIT024",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 25,
+      "fields": {
+        "ime": "Projektiranje informacijskih sustava",
+        "kod": "SIT025",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 26,
+      "fields": {
+        "ime": "Informatizacija poslovanja",
+        "kod": "SIT026",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 4,
+        "sem_izvanredni": 6,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 27,
+      "fields": {
+        "ime": "Ekonomika i organizacija poduzeća",
+        "kod": "SIT027",
+        "program": "Program nije unesen",
+        "bodovi": 2,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 28,
+      "fields": {
+        "ime": "Analiza 2",
+        "kod": "SIT028",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 29,
+      "fields": {
+        "ime": "Industrijska praksa",
+        "kod": "SIT029",
+        "program": "Program nije unesen",
+        "bodovi": 2,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 30,
+      "fields": {
+        "ime": "Arhitektura poslužiteljskih računala",
+        "kod": "SIT030",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 31,
+      "fields": {
+        "ime": "Sigurnost računala i podataka",
+        "kod": "SIT031",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 32,
+      "fields": {
+        "ime": "Programski alati na UNIX računalima",
+        "kod": "SIT032",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 33,
+      "fields": {
+        "ime": "Napredno Windows programiranje",
+        "kod": "SIT033",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 34,
+      "fields": {
+        "ime": "Objektno orijenirano modeliranje",
+        "kod": "SIT034",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 35,
+      "fields": {
+        "ime": "Programiranje u javi",
+        "kod": "SIT035",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 36,
+      "fields": {
+        "ime": "Programiranje na internetu",
+        "kod": "SIT036",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 37,
+      "fields": {
+        "ime": "Elektroničko poslovanje",
+        "kod": "SIT037",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 5,
+        "sem_izvanredni": 7,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 38,
+      "fields": {
+        "ime": "Diskretna matematika",
+        "kod": "SIT038",
+        "program": "Program nije unesen",
+        "bodovi": 6,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "ne"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 39,
+      "fields": {
+        "ime": "Upravljanje poslužiteljskim računalima",
+        "kod": "SIT039",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 40,
+      "fields": {
+        "ime": "Programiranje u C#",
+        "kod": "SIT040",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 41,
+      "fields": {
+        "ime": "Društveni informacijski sustavi",
+        "kod": "SIT041",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 42,
+      "fields": {
+        "ime": "Oblikovanje web stranica",
+        "kod": "SIT042",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 43,
+      "fields": {
+        "ime": "Vođenje projekata i dokumentacija",
+        "kod": "SIT043",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 44,
+      "fields": {
+        "ime": "Informatizacija proizvodnje",
+        "kod": "SIT044",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 45,
+      "fields": {
+        "ime": "Analiza i obrada podataka",
+        "kod": "SIT045",
+        "program": "Program nije unesen",
+        "bodovi": 5,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 46,
+      "fields": {
+        "ime": "Njemački jezik",
+        "kod": "SSZP40",
+        "program": "Program nije unesen",
+        "bodovi": 4,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 47,
+      "fields": {
+        "ime": "Talijanski jezik",
+        "kod": "SSZP50",
+        "program": "Program nije unesen",
+        "bodovi": 4,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "da"
+      }
+    },
+    {
+      "model": "App.subject",
+      "id": 48,
+      "fields": {
+        "ime": "Završni rad",
+        "kod": "SIT046",
+        "program": "Program nije unesen",
+        "bodovi": 8,
+        "sem_redovni": 6,
+        "sem_izvanredni": 8,
+        "izborni": "ne"
+      }
+    }
+  ]

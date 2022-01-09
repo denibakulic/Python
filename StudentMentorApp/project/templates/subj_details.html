@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content%}
+
+<div>
+    <h2>Detalji predmeta</h2><br>
+    <p><b>Naziv:</b>{{subject.ime}}</p>
+    <p><b>Kod:</b>{{subject.kod}}</p>
+    <p><b>Bodovi:</b>{{subject.bodovi}}</p>
+    <p><b>Semestar redovni:</b>{{subject.sem_redovni}}</p>
+    <p><b>Semestar izvanredni:</b>{{subject.sem_izvanredni}}</p>
+    <p><b>Izborni:</b>{{subject.itborni}}</p>
+    <p><b>Program:</b>{{subject.program}}</p>
+</div>
+
+{% endblock%}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content%}
+
+<h1>Lista predmeta</h1><br>
+<a href="/addsubj" class="btn btn-primary">Add subject</a><br></br>
+{% for subject in subjects %}
+<form method ="POST" class = "form">{% csrf_token %}
+    <a href = "/subj_details/{{subject.id}}" class = "btn btn-outline-primary">{{subject}}</a>
+    <a href = "/edit_subj/{{subject.id}}" class = "btn btn-info">Edit</a>
+    <button type="submit" name="delete" value="{{subject.id}}" class="btn btn-danger">Delete</button>
+</form>
+
+{% endfor %}
+
+{% endblock%}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>Izmjena predmeta</h1>
+<div class="content-sction">
+    <form method = 'POST'>{% csrf_token %}
+        <fieldset class="form-group">
+            {{subform|crispy}}
+        </fieldset>
+        <div class="form-group">
+            <button class="btn btn-outline-info" type="submit">Edit</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

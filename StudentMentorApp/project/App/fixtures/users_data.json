@@ -1,0 +1,35 @@
+[
+    {
+        "model": "App.MyUser",
+        "id": 3,
+        "fields": {
+          "username": "mentor",
+          "email": "mentor@oss.hr",
+          "password": "$2y$10$1SHubXN9y9sMnnLLuRPEbOyHh2xzeCpDBM8ioJgIGLuohOivnh7q6",
+          "role": "mentor",
+          "status": "none"
+        }
+      },
+      {
+        "model": "App.MyUser",
+        "id": 4,
+        "fields": {
+          "username": "redovni",
+          "email": "red@oss.hr",
+          "password": "$2y$10$1SHubXN9y9sMnnLLuRPEbOyHh2xzeCpDBM8ioJgIGLuohOivnh7q6",
+          "role": "student",
+          "status": "redovni"
+        }
+      },
+      {
+        "model": "App.MyUser",
+        "id": 5,
+        "fields": {
+          "username": "izvanredni",
+          "email": "izv@oss.hr",
+          "password": "$2y$10$1SHubXN9y9sMnnLLuRPEbOyHh2xzeCpDBM8ioJgIGLuohOivnh7q6",
+          "role": "student",
+          "status": "izvanredni"
+        }
+      }
+]

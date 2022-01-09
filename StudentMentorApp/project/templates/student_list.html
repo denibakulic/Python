@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content%}
+
+{% if students %}
+<h1>Lista studenata</h1>
+{% for student in students %}
+<p class=margin-tb>
+    <a href="/enrolment/{{student.id}}"class="btn btn-primary">{{student}}</a>
+</p>
+{% endfor %}
+{% else %}
+<h1>Nema studenata u bazi!</h1>
+{% endif %}
+
+{% endblock%}
